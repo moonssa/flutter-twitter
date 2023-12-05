@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:twitter/features/authentication/initial_screen.dart';
+import 'package:twitter/features/main_navigation/main_navigation_screen.dart';
+// import 'package:twitter/features/authentication/initial_screen.dart';
 // import 'package:twitter/features/authentication/password_screen.dart';
 
 void main() {
@@ -26,10 +27,11 @@ class MyApp extends StatelessWidget {
             // size: Sizes.size48,
           ),
         ),
-        useMaterial3: true,
+        // useMaterial3: true,
       ),
       // home: const PasswordScreen(),
-      home: const InitialScreen(),
+      // home: const InitialScreen(),
+      home: const MainNavigationScreen(),
     );
   }
 }
